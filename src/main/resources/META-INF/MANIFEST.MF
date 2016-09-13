@@ -1,0 +1,2 @@
+Manifest-Version: 1.0-SNAPSHOT
+Main-Class: pavelpadalka.u.gitlab.com.application.Application
