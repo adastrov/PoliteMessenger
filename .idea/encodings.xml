@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/log" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/main/java/pavelpadalka/u/gitlab/com/application/Application.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/pavelpadalka/u/gitlab/com/enums/PartsOfDay.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/main/java/pavelpadalka/u/gitlab/com/helper/MessageHelper.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/pavelpadalka/u/gitlab/com/messenger/PoliteMessenger.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/log4j.properties" charset="windows-1251" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
