@@ -1,6 +1,6 @@
 # PoliteMessenger
 
-[![Build Status](https://travis-ci.org/palagen/PoliteMessenger.svg?branch=master)](https://travis-ci.org/palagen/PoliteMessenger)
+[![Build Status](http://circleci-badges-max.herokuapp.com/img/palagen/PoliteMessenger/master?token=:circle-ci-token)](https://circleci.com/gh/palagen/PoliteMessenger/1)
 
 Задание:
 
