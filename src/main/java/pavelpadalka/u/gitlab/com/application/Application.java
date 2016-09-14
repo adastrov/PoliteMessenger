@@ -6,7 +6,7 @@ public class Application {
 
     public static void main(String[] args) {
 
-        PoliteMessenger politeMessenger = new PoliteMessenger();
+        PoliteMessenger пpoliteMessenger = new PoliteMessenger();
 
         politeMessenger.printHelloAccordingToThePartOfDay();
 
