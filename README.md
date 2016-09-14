@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/palagen/PoliteMessenger.svg?branch=master)](https://travis-ci.org/palagen/PoliteMessenger)
 
+
 Задание:
 
 Написать консольное приложение на java, с использованием maven.
