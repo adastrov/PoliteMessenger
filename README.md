@@ -2,8 +2,6 @@
 
 [![Build Status](http://circleci-badges-max.herokuapp.com/img/palagen/PoliteMessenger/master?token=:circle-ci-token)](https://circleci.com/gh/palagen/PoliteMessenger/1)
 
-[![Build Status](http://circleci-badges-max.herokuapp.com/img/:owner/:repo/:branch?token=:circle-ci-token)](https://circleci.com/gh/:owner/:repo/tree/:branch)
-
 Задание:
 
 Написать консольное приложение на java, с использованием maven.
