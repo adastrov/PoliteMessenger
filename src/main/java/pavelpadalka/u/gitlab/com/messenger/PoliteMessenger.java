@@ -66,4 +66,3 @@ public class PoliteMessenger {
         return currentDate.hashCode();
     }
 }
-
