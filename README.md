@@ -1,4 +1,4 @@
-# PoliteMessenger
+# Polite messenger
 
 [![Build Status](https://circleci.com/gh/palagen/PoliteMessenger/tree/master.png?circle-token=:circle-token)](https://circleci.com/gh/palagen/PoliteMessenger)
 
