@@ -18,12 +18,12 @@ public class PoliteMessenger {
         setCurrentDate(new Date());
     }
 
-    public PoliteMessenger(Date currentData) {
-        setCurrentDate(currentData);
+    public PoliteMessenger(Date currentDate) {
+        setCurrentDate(currentDate);
     }
 
-    public PoliteMessenger(Timestamp currentData) {
-        setCurrentDate(currentData.getTimestamp());
+    public PoliteMessenger(Timestamp currentDate) {
+        setCurrentDate(currentDate.getTimestamp());
     }
 
     public void printHelloAccordingToThePartOfDay() {
@@ -46,8 +46,8 @@ public class PoliteMessenger {
 
     }
 
-    private void setCurrentDate(Date currentData) {
-        this.currentDate = currentData;
+    private void setCurrentDate(Date currentDate) {
+        this.currentDate = currentDate;
     }
 
     @Override
