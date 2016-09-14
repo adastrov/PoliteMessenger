@@ -1,6 +1,8 @@
 # PoliteMessenger
 
-[![Build Status](http://circleci-badges-max.herokuapp.com/img/palagen/PoliteMessenger/master?token=:circle-ci-token)](https://circleci.com/gh/palagen/PoliteMessenger/1)
+[![Build Status](http://circleci-badges-max.herokuapp.com/img/palagen/PoliteMessenger/master?token=:circle-ci-token)](https://circleci.com/gh/palagen/PoliteMessenger/master)
+
+[![Build Status](https://circleci.com/gh/palagen/PoliteMessenger/tree/master.png?circle-token=:circle-token)](https://circleci.com/gh/palagen/PoliteMessenger)
 
 Задание:
 
