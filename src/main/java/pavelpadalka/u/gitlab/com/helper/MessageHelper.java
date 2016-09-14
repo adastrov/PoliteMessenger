@@ -13,7 +13,7 @@ public class MessageHelper {
     private MessageHelper() {
     }
 
-    public static String getCurrentPartOfDay(Date currentDateTime) throws ParseException {
+    public static String getPartOfDay(Date currentDateTime) throws ParseException {
 
         Date current  = dateFormat.parse(dateFormat.format(currentDateTime));
         Date morning  = dateFormat.parse(PartsOfDay.MORNING.toString());

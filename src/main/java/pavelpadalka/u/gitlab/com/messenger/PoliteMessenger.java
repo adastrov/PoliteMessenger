@@ -34,7 +34,7 @@ public class PoliteMessenger {
 
         try {
 
-            String currentPartOfDay = MessageHelper.getCurrentPartOfDay(this.currentDate);
+            String currentPartOfDay = MessageHelper.getPartOfDay(this.currentDate);
             String greeting         = res.getString("greeting." + currentPartOfDay.toLowerCase());
 
             log.info("Created  -> " + greeting);
