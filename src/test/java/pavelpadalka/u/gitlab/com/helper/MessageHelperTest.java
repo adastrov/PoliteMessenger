@@ -14,13 +14,13 @@ public class MessageHelperTest {
     @Test
     public void testNightFirst()throws ParseException {
         result = MessageHelper.getCurrentPartOfDay(dateFormat.parse("23:00:00"));
-        Assert.assertEquals(result, "NIGHT");
+        Assert.assertEquals(result, "NIGHTп");
     }
 
     @Test
     public void testNightSecond()throws ParseException{
         result = MessageHelper.getCurrentPartOfDay(dateFormat.parse("05:59:59"));
-        Assert.assertEquals(result, "NIGHT");
+        Assert.assertEquals(result, "NIGHTп");
     }
 
     @Test
