@@ -11,19 +11,19 @@ import java.util.ResourceBundle;
 
 public class PoliteMessenger {
 
-    private Date currentData;
+    private Date currentDate;
     private static final Logger log = Logger.getLogger(PoliteMessenger.class);
 
     public PoliteMessenger() {
-        setCurrentData(new Date());
+        setCurrentDate(new Date());
     }
 
     public PoliteMessenger(Date currentData) {
-        setCurrentData(currentData);
+        setCurrentDate(currentData);
     }
 
     public PoliteMessenger(Timestamp currentData) {
-        setCurrentData(currentData.getTimestamp());
+        setCurrentDate(currentData.getTimestamp());
     }
 
     public void printHelloAccordingToThePartOfDay() {
@@ -34,7 +34,7 @@ public class PoliteMessenger {
 
         try {
 
-            String currentPartOfDay = MessageHelper.getCurrentPartOfDay(this.currentData);
+            String currentPartOfDay = MessageHelper.getCurrentPartOfDay(this.currentDate);
             String greeting         = res.getString("greeting." + currentPartOfDay.toLowerCase());
 
             log.info("Created  -> " + greeting);
@@ -46,8 +46,8 @@ public class PoliteMessenger {
 
     }
 
-    private void setCurrentData(Date currentData) {
-        this.currentData = currentData;
+    private void setCurrentDate(Date currentData) {
+        this.currentDate = currentData;
     }
 
     @Override
@@ -57,13 +57,13 @@ public class PoliteMessenger {
 
         PoliteMessenger that = (PoliteMessenger) o;
 
-        return currentData.equals(that.currentData);
+        return currentDate.equals(that.currentDate);
 
     }
 
     @Override
     public int hashCode() {
-        return currentData.hashCode();
+        return currentDate.hashCode();
     }
 }
 
