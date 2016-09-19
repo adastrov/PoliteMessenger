@@ -4,9 +4,7 @@ import org.apache.log4j.Logger;
 import pavelpadalka.u.gitlab.com.helper.MessageHelper;
 
 import java.security.Timestamp;
-import java.text.ParseException;
 import java.util.Date;
-import java.util.Locale;
 import java.util.ResourceBundle;
 
 public class PoliteMessenger {
@@ -28,21 +26,12 @@ public class PoliteMessenger {
 
     public void printHelloAccordingToThePartOfDay() {
 
-        Locale.getDefault();
-
         ResourceBundle res = ResourceBundle.getBundle("data");
 
-        try {
+        String currentPartOfDay = MessageHelper.getPartOfDay(this.currentDate);
+        String greeting         = res.getString("greeting." + currentPartOfDay.toLowerCase());
 
-            String currentPartOfDay = MessageHelper.getPartOfDay(this.currentDate);
-            String greeting         = res.getString("greeting." + currentPartOfDay.toLowerCase());
-
-            log.info("Created  -> " + greeting);
-            System.out.println(greeting);
-
-        } catch (ParseException e) {
-            log.error("Parse exception", e);
-        }
+        System.out.println(greeting);
 
     }
 
