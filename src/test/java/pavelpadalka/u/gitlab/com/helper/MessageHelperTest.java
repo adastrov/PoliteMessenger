@@ -182,9 +182,10 @@ public class MessageHelperTest {
 
         result = res.getString("greeting." + "morning");
 
-        Assert.assertEquals("Доброе утро, Мир!", result);
+        Assert.assertEquals("\u0414\u043E\u0431\u0440\u043E\u0435 \u0443\u0442\u0440\u043E, \u041C\u0438\u0440!", result);
 
     }
+
 
     @Test
     public void testOfDataProperties_ru_Day() {
@@ -195,7 +196,7 @@ public class MessageHelperTest {
 
         result = res.getString("greeting." + "day");
 
-        Assert.assertEquals("Добрый день, Мир!", result);
+        Assert.assertEquals("\u0414\u043E\u0431\u0440\u044B\u0439 \u0434\u0435\u043D\u044C, \u041C\u0438\u0440!", result);
 
     }
 
@@ -208,7 +209,7 @@ public class MessageHelperTest {
 
         result = res.getString("greeting." + "evening");
 
-        Assert.assertEquals("Добрый вечер, Мир!", result);
+        Assert.assertEquals("\u0414\u043E\u0431\u0440\u044B\u0439 \u0432\u0435\u0447\u0435\u0440, \u041C\u0438\u0440!", result);
 
     }
 
@@ -221,7 +222,7 @@ public class MessageHelperTest {
 
         result = res.getString("greeting." + "night");
 
-        Assert.assertEquals("Доброй ночи, Мир!", result);
+        Assert.assertEquals("\u0414\u043E\u0431\u0440\u043E\u0439 \u043D\u043E\u0447\u0438, \u041C\u0438\u0440!", result);
 
     }
 
