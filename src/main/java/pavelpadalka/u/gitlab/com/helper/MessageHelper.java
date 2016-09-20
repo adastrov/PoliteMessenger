@@ -9,7 +9,6 @@ import java.util.Date;
 
 public class MessageHelper {
 
-    private static DayAndNightFactory dayAndNightFactory = new DayAndNightFactory();
     private static final Logger log = Logger.getLogger(MessageHelper.class);
 
     private MessageHelper() {
@@ -28,16 +27,16 @@ public class MessageHelper {
             System.exit(0);
         }
 
-        if(current.after(dayAndNightFactory.getTimeLimit(PartsOfDay.MORNING))
-                && current.before(dayAndNightFactory.getTimeLimit(PartsOfDay.DAY))){
+        if(current.after(DayAndNightFactory.getTimeLimit(PartsOfDay.MORNING))
+                && current.before(DayAndNightFactory.getTimeLimit(PartsOfDay.DAY))){
             result = "MORNING";
         }
-        else if (current.after(dayAndNightFactory.getTimeLimit(PartsOfDay.DAY))
-                && current.before(dayAndNightFactory.getTimeLimit(PartsOfDay.EVENING))){
+        else if (current.after(DayAndNightFactory.getTimeLimit(PartsOfDay.DAY))
+                && current.before(DayAndNightFactory.getTimeLimit(PartsOfDay.EVENING))){
             result = "DAY";
         }
-        else if (current.after(dayAndNightFactory.getTimeLimit(PartsOfDay.EVENING))
-                && current.before(dayAndNightFactory.getTimeLimit(PartsOfDay.NIGHT))){
+        else if (current.after(DayAndNightFactory.getTimeLimit(PartsOfDay.EVENING))
+                && current.before(DayAndNightFactory.getTimeLimit(PartsOfDay.NIGHT))){
             result = "EVENING";
         }
         else {
