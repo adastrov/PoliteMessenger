@@ -212,7 +212,6 @@ public class MessageHelperTest {
 
     }
 
-
     @Test
     public void testOfDataProperties_ru_Night() {
 
