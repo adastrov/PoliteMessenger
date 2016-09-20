@@ -18,7 +18,7 @@ public class DayAndNightFactory {
 
     static {
 
-        ResourceBundle resourceBundle = ResourceBundle.getBundle("DayAndNightTimeLimits");
+        ResourceBundle resourceBundle = ResourceBundle.getBundle("dayAndNightTimeLimits");
 
         SimpleDateFormat dateFormat = new SimpleDateFormat("HH:mm:ss");
 

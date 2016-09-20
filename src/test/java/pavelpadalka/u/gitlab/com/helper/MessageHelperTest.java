@@ -112,7 +112,7 @@ public class MessageHelperTest {
     @Test
     public void testForReadingDataDayAndNightTimeLimitsProperties() throws ParseException {
 
-        ResourceBundle resourceBundle = ResourceBundle.getBundle("DayAndNightTimeLimits");
+        ResourceBundle resourceBundle = ResourceBundle.getBundle("dayAndNightTimeLimits");
 
         dateFormat.parse(resourceBundle.getString("timeLimit.morning"));
         dateFormat.parse(resourceBundle.getString("timeLimit.day"));
@@ -182,7 +182,7 @@ public class MessageHelperTest {
 
         result = res.getString("greeting." + "morning");
 
-        Assert.assertEquals("Р”РѕР±СЂРѕРµ СѓС‚СЂРѕ, РњРёСЂ!", result);
+        Assert.assertEquals("Доброе утро, Мир!", result);
 
     }
 
@@ -195,7 +195,7 @@ public class MessageHelperTest {
 
         result = res.getString("greeting." + "day");
 
-        Assert.assertEquals("Р”РѕР±СЂС‹Р№ РґРµРЅСЊ, РњРёСЂ!", result);
+        Assert.assertEquals("Добрый день, Мир!", result);
 
     }
 
@@ -208,7 +208,7 @@ public class MessageHelperTest {
 
         result = res.getString("greeting." + "evening");
 
-        Assert.assertEquals("Р”РѕР±СЂС‹Р№ РІРµС‡РµСЂ, РњРёСЂ!", result);
+        Assert.assertEquals("Добрый вечер, Мир!", result);
 
     }
 
@@ -221,7 +221,7 @@ public class MessageHelperTest {
 
         result = res.getString("greeting." + "night");
 
-        Assert.assertEquals("Р”РѕР±СЂРѕР№ РЅРѕС‡Рё, РњРёСЂ!", result);
+        Assert.assertEquals("Доброй ночи, Мир!", result);
 
     }
 
