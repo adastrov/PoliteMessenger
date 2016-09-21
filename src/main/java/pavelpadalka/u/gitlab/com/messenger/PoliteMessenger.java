@@ -1,6 +1,5 @@
 package pavelpadalka.u.gitlab.com.messenger;
 
-import org.apache.log4j.Logger;
 import pavelpadalka.u.gitlab.com.helper.MessageHelper;
 
 import java.security.Timestamp;
@@ -10,7 +9,6 @@ import java.util.ResourceBundle;
 public class PoliteMessenger {
 
     private Date currentDate;
-    private static final Logger log = Logger.getLogger(PoliteMessenger.class);
 
     public PoliteMessenger() {
         setCurrentDate(new Date());
