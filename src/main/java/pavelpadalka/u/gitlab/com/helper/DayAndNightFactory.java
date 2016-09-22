@@ -34,11 +34,11 @@ public class DayAndNightFactory {
 
     }
 
-    public static Date getTimeLimit(PartsOfDay partsOfDay) {
+    public static Date getTimeLimit(PartsOfDay partOfDay) {
 
         Date result = null;
 
-        switch (partsOfDay) {
+        switch (partOfDay) {
 
             case MORNING:
                 result = morningTimeLimit;
