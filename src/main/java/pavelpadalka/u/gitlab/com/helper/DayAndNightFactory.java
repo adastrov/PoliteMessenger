@@ -38,14 +38,19 @@ public class DayAndNightFactory {
 
         Date result = null;
 
-        if (partsOfDay.equals(PartsOfDay.MORNING)) {
-            result = morningTimeLimit;
-        } else if (partsOfDay.equals(PartsOfDay.DAY)) {
-            result = dayTimeLimit;
-        } else if (partsOfDay.equals(PartsOfDay.EVENING)) {
-            result = eveningTimeLimit;
-        } else if (partsOfDay.equals(PartsOfDay.NIGHT)) {
-            result = nightTimeLimit;
+        switch (partsOfDay) {
+
+            case MORNING:
+                result = morningTimeLimit;
+                break;
+            case DAY:
+                result = dayTimeLimit;
+                break;
+            case EVENING:
+                result = eveningTimeLimit;
+                break;
+            case NIGHT:
+                result = nightTimeLimit;
         }
 
             return result;
